@@ -1,0 +1,14 @@
+dotUsdtSpotBnb(fiatBahtAmount, usdtPriceBitkub, bnbPriceBinance, dotPriceBitkub, dotPriceSpotBnb):
+	#  INPUTS descriptions : 
+	# fiatBahtAmount = THB you want to put to Bitkub
+	# usdtPriceBitkub = current USDT price or the price you'd like to bid in Bitkub (example: THB 30.2)
+	# bnbPriceBinance = BNB price in Binance (example: USDT 125)
+	# dotPriceBitkub = current DOT price in Bitkub or the price you'd like to bid
+	# dotPriceSpotBnb = current DOT spot price against BNB (example: DOT/BNB 0.2)
+  
+dotUsdtBnb(fiatBahtAmount, usdtPriceBitkub, dotPriceBitkub, dotPriceBinance):
+	#  INPUTS descriptions : 
+	# fiatBahtAmount = THB you want to put to Bitkub
+	# usdtPriceBitkub = current USDT price or the price you'd like to bid in Bitkub (example: THB 30.2)
+	# dotPriceBitkub = current DOT price or the price you'd like to bid in Bitkub (example: THB 700)
+	# dotPriceBinance = current DOT price or the price you'd like to bid in binance in USDT (example: USDT 25)
